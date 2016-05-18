@@ -1,10 +1,9 @@
 {
   "name": "docker-update-hosts",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node --harmony index.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +16,6 @@
     "yargs": "^4.7.1"
   },
   "bin":{
-    "docker-update-hosts" : "./bin/bin.js"
+    "docker-update-hosts" : "./bin/docker-update-hosts"
   }
 }
