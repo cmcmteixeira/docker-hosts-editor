@@ -23,5 +23,6 @@ module.exports.handler = (argv) => {
     process.title = 'Docker Hosts Updater';
     log.level = argv.logLevel || 'warn';
     var command = require('../lib/update.js');
+    log.verbose('Running Update.')
     command.update(argv.file,argv.tld);
 };

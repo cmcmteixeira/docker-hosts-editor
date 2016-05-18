@@ -1,2 +1,2 @@
-#! node --harmony
+#! /usr/bin/node --harmony
 require('../index.js');
