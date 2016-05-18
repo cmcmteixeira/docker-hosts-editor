@@ -7,6 +7,7 @@ module.exports.builder = (yargs) => {
         .option('file', {
             type: 'string',
             alias: 'f',
+            default:'docker-compose.yml',
             describe: 'docker-compose.yml file path'
         })
         .option('tld', {
